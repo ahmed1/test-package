@@ -4,9 +4,6 @@ import PackageDescription
 
 let package = Package(
     name: "Neuranest",
-    platforms: [
-        .iOS(.v16)
-    ],
     products: [
         .library(
             name: "Neuranest",
